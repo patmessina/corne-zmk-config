@@ -36,7 +36,7 @@
 
             bindings = <
 &kp TAB     &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET  &kp AMPS   &kp STAR  &kp LPAR  &kp RPAR  &kp BSPC
-&kp ESCAPE  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
+&mt LCTRL ESCAPE  &trans    &trans  &trans    &trans    &trans       &kp MINUS  &kp EQUAL  &kp LBKT  &kp RBKT  &kp BSLH  &kp GRAVE
 &kp LSHFT   &trans    &trans  &trans    &trans    &trans       &kp UNDER  &kp PLUS   &kp LBRC  &kp RBRC  &kp PIPE  &kp TILDE
                               &kp LGUI  &trans    &kp SPACE    &kp RET    &trans     &kp RALT
             >;
@@ -54,7 +54,7 @@
         layer_3 {
             bindings = <
 &trans      &trans      &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&bt BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
+&trans      BT_CLR  &bt BT_PRV  &bt BT_NXT  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans      &trans      &trans      &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
                                     &trans  &trans  &trans    &trans  &trans  &trans
             >;
